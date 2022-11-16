@@ -1,0 +1,3 @@
+[submodule "sns_bff"]
+	path = sns_bff
+	url = https://github.com/Shakalyan/sns_bff
