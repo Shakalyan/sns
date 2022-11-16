@@ -1,3 +1,6 @@
 [submodule "sns_bff"]
 	path = sns_bff
 	url = https://github.com/Shakalyan/sns_bff
+[submodule "SNS_backend"]
+	path = SNS_backend
+	url = https://github.com/maselof/SNS_backend.git
