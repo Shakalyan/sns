@@ -8,11 +8,12 @@ services:
        - '5000:5000'
     depends_on:
       - database
+    restart: on-failure:10
   
   database:
     image: postgres:15.1
     environment:
-      POSTGRES_DB: "db_snus"
+      POSTGRES_DB: "DB_SNUS"
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "Defender02Sync02"
     expose:
