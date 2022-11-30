@@ -16,6 +16,8 @@ services:
       POSTGRES_DB: "DB_SNUS"
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "Defender02Sync02"
+    volumes:
+      - .:/db_sns.sql
     expose:
       - '5432'
 
