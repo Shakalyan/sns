@@ -17,7 +17,8 @@ services:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "Defender02Sync02"
     volumes:
-      - .:/db_sns.sql
+      - .:/docker-entrypoint-initdb.d
+    restart: always
     expose:
       - '5432'
 
